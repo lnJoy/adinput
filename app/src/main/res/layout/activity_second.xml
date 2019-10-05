@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="56dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp">
+
+        <ImageView android:src="@drawable/logo2"
+            android:id="@+id/mainTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_gravity=""
+            android:layout_marginBottom="24dp"
+            />
+
+        <EditText android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="제목"
+        />
+
+        <EditText android:id="@+id/adex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="설명"
+            />
+        <EditText android:id="@+id/youtubeid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="유튜브 아이디 또는 링크"
+            />
+        <EditText android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="이메일 주소"
+            />
+
+        <EditText android:id="@+id/longex"
+            android:layout_width="match_parent"
+            android:layout_height="302dp"
+            android:hint="소개" />
+
+        <EditText android:id="@+id/precautions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="주의사항"
+            />
+
+        <Button android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="다음"
+         />
+    </LinearLayout>
+
+ </ScrollView>
